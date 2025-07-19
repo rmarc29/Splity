@@ -1,3 +1,4 @@
+print("Splity Addon is loading!")
 -- Create the main frame to hold level splits
 SplityFrame = CreateFrame("Frame", "SplityFrame", UIParent)
 SplityFrame:SetWidth(200)

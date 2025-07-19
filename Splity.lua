@@ -113,7 +113,7 @@ end)
 
 
 -- Slash command to show/hide the frame
-SLASH_SPLITY1 = "/splity"
+SLASH_SPLITY = "/splity"
 SlashCmdList["SPLITY"] = function()
     if SplityFrame:IsShown() then
         SplityFrame:Hide()

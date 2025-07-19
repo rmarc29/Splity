@@ -15,8 +15,8 @@ SplityFrame:SetBackdrop({
 SplityFrame:SetMovable(true)
 SplityFrame:EnableMouse(true)
 SplityFrame:RegisterForDrag("LeftButton")
-SplityFrame:SetScript("OnDragStart", function() this:StartMoving() end)
-SplityFrame:SetScript("OnDragStop", function() this:StopMovingOrSizing() end)
+SplityFrame:SetScript("OnDragStart", function() self:StartMoving() end)
+SplityFrame:SetScript("OnDragStop", function() self:StopMovingOrSizing() end)
 SplityFrame:Show() 
 
 -- Title

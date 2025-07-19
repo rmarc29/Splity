@@ -17,7 +17,7 @@ SplityFrame:EnableMouse(true)
 SplityFrame:RegisterForDrag("LeftButton")
 SplityFrame:SetScript("OnDragStart", function() this:StartMoving() end)
 SplityFrame:SetScript("OnDragStop", function() this:StopMovingOrSizing() end)
-SplityFrame:Hide() -- start hidden
+SplityFrame:Show() 
 
 -- Title
 local title = SplityFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")

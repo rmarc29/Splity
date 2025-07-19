@@ -1,6 +1,8 @@
 ## Interface: 11200
 ## Author: rmarc29 (aka TNS)
 ## Title: Splity
+## Version: 1.0
 ## Notes: Records and displays the time taken to reach each level.
 ## SavedVariables: SplityData
+
 Splity.lua
